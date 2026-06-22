@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>SRG Technologies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="brand/logo.png">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">
+            <span ></span>
+            <img class="logo-mark" src="brand/logo.png" alt="SRG Technologies" />
+            <img class="logo-text" src="brand/name.png" alt="SRG Technologies"/>
+        </div>
+        <nav class="main-nav">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="visually-hidden">Toggle navigation</span>
+            </button>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#engineering-solutions">Solutions</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" data-index="0">
+                <img src="hero/solutions.png" alt="Precision engineered component specimen 1" />
+                <div class="hero-overlay">
+                    <h1>Engineering Solutions for Manufacturing Challenges</h1>
+                    <p>Precision-engineered components, machine tool upgrades, and integrated manufacturing solutions.</p>
+                </div>
+            </div>
+            <div class="hero-slide" data-index="1">
+                <img src="hero/steady.png" alt="Machine tool modernisation project" />
+                <div class="hero-overlay">
+                    <h1>Your Productivity Partner in Manufacturing</h1>
+                    <p>Development of spares, jigs, fixtures and full machine tool reconditioning and automation.</p>
+                </div>
+            </div>
+            <div class="hero-slide" data-index="2">
+                <img src="hero/concept-to-shop.png" alt="In-process measurement and gauging arrangement" />
+                <div class="hero-overlay">
+                    <h1>From Concept to Shop Floor</h1>
+                    <p>Design, manufacturing, and commissioning support for demanding industries.</p>
+                </div>
+            </div>
+
+            <button class="hero-control hero-control--prev" aria-label="Previous slide">&lsaquo;</button>
+            <button class="hero-control hero-control--next" aria-label="Next slide">&rsaquo;</button>
+
+            <div class="hero-dots">
+                <button class="hero-dot active" data-index="0" aria-label="Go to slide 1"></button>
+                <button class="hero-dot" data-index="1" aria-label="Go to slide 2"></button>
+                <button class="hero-dot" data-index="2" aria-label="Go to slide 3"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="section section-alt">
+        <div class="container">
+            <header class="section-header">
+                <h2>Industries We Serve</h2>
+                <p>Engineering support for demanding manufacturing sectors, from steel and heavy engineering to precision bearing and automotive.</p>
+            </header>
+
+            <div class="card-grid">
+              <article class="industry-card">
+                  <div class="card-media-wrapper">
+                      <img
+                          class="card-poster"
+                          src="industries/heavy.png"
+                          alt="Heavy industrial manufacturing environment"
+                      />
+                      <video
+                          class="card-hover-video"
+                          muted
+                          loop
+                          playsinline
+                          preload="metadata"
+                          poster="industries/heavy.png"
+                      >
+                          <source src="industries/heavy.mp4" type="video/mp4" />
+                      </video>
+                  </div>
+                  <div class="card-content">
+                      <h3>Metals & Heavy Industry</h3>
+                      <p class="card-brief">
+                          Engineering support for steel, metal processing, heavy equipment, and other demanding industrial operations requiring reliability, production resilience, and consistent manufacturing performance.
+                      </p>
+                  </div>
+              </article>
+              
+              <article class="industry-card">
+                  <div class="card-media-wrapper">
+                      <img
+                          class="card-poster"
+                          src="industries/automation.png"
+                          alt="Automotive and mobility manufacturing environment"
+                      />
+                      <video
+                          class="card-hover-video"
+                          muted
+                          loop
+                          playsinline
+                          preload="metadata"
+                          poster="industries/automation.png"
+                      >
+                          <source src="industries/automation.mp4" type="video/mp4" />
+                      </video>
+                  </div>
+                  
+                  <div class="card-content">
+                      <h3>Automotive & Mobility</h3>
+                      <p class="card-brief">
+                          Engineering support for automotive, transport, and mobility-focused manufacturing operations requiring process reliability, machine capability enhancement, precision tooling, and production efficiency.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="industry-card">
+                  <div class="card-media-wrapper">
+                      <img
+                          class="card-poster"
+                          src="industries/precision.png"
+                          alt="Precision manufacturing and engineered component production"
+                      />
+                      <video
+                          class="card-hover-video"
+                          muted
+                          loop
+                          playsinline
+                          preload="metadata"
+                          poster="industries/precision.png"
+                      >
+                          <source src="industries/precision.mp4" type="video/mp4" />
+                      </video>
+                  </div>
+                  
+                  <div class="card-content">
+                      <h3>Precision Manufacturing</h3>
+                      <p class="card-brief">
+                          Solutions for quality-driven manufacturing environments involving precision components, controlled machining processes, repeatable production, and high standards of dimensional consistency.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="industry-card">
+                  <div class="card-media-wrapper">
+                      <img
+                          class="card-poster"
+                          src="industries/general.png"
+                          alt="General industrial engineering and production operations"
+                      />
+                      <video
+                          class="card-hover-video"
+                          muted
+                          loop
+                          playsinline
+                          preload="metadata"
+                          poster="industries/general.png"
+                      >
+                          <source src="industries/general.mp4" type="video/mp4" />
+                      </video>
+                  </div>
+                  
+                  <div class="card-content">
+                      <h3>General Engineering & Industrial Production</h3>
+                      <p class="card-brief">
+                          Flexible engineering solutions for a wide range of industrial production settings, including tooling, machine sub-assemblies, automation support, maintenance-oriented upgrades, and process improvement initiatives.
+                      </p>
+                  </div>
+              </article>
+              
+            </div>
+        </div>
+    </section>
+
+    <section id="engineering-solutions" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Engineering Solutions</h2>
+                <p>Integrated manufacturing engineering services, backed by decades of hands‑on shop‑floor experience.</p>
+            </header>
+
+            <div class="stats-grid">
+                <article class="stat-card">
+                    <div class="stat-value">15+</div>
+                    <div class="stat-label">Years Serving Manufacturing</div>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-value">50+</div>
+                    <div class="stat-label">Special Purpose Machines Delivered</div>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-value">200+</div>
+                    <div class="stat-label">Components & Sub‑Assemblies Developed</div>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-value">30+</div>
+                    <div class="stat-label">Machine Tool Modernisation Projects</div>
+                </article>
+            </div>
+
+            <div class="solutions-grid">
+                <article class="solution-card">
+                    <h3>Component Manufacturing</h3>
+                    <p>End‑to‑end support from basic cast or forged form to finished components, optimised for cost, quality, and reliability.</p>
+                </article>
+
+                <article class="solution-card">
+                    <h3>SPMs & Automation</h3>
+                    <p>Design and build of special purpose machines, in‑process measurement, and automation to improve productivity.</p>
+                </article>
+
+                <article class="solution-card">
+                    <h3>Machine Tool Modernisation</h3>
+                    <p>Retrofitting, reconditioning, and re‑controlling of existing machine tools for improved performance and uptime.</p>
+                </article>
+
+                <article class="solution-card">
+                    <h3>Fixtures & Tooling</h3>
+                    <p>Jigs, fixtures, toolings, and machine sub‑assemblies tailored to your process and quality objectives.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-alt" aria-labelledby="projects-overview-title">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="projects-overview-title">Projects Gallery</h2>
+                <p>
+                    Explore selected engineering assignments covering tooling, machine tool modernisation,
+                    sub-assemblies, special-purpose mechanisms, and manufacturing improvement work across industrial sectors.
+                </p>
+            </div>
+
+            <div class="contact-panel">
+                <h3>See detailed projects</h3>
+                <p>
+                    Browse our projects gallery for representative work delivered across steel, precision manufacturing,
+                    automotive-related production, and broader industrial engineering applications.
+                </p>
+
+                <div class="contact-actions">
+                    <a class="contact-btn email-btn" href="projects.html">View Projects Gallery</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="customers" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Our Customers</h2>
+                <p>Trusted by leading manufacturers in steel, automotive, powertrain, and allied industries.</p>
+            </header>
+
+            <div class="logo-strip">
+                <div class="logo-strip-inner">
+                    <img src="customers/amns_india.png" alt="AM/NS India" />
+                    <img src="customers/bharat_forge.png" alt="Bharat Forge" />
+                    <img src="customers/cooper_corp.jpg" alt="Cooper Corp" />
+                    <img src="customers/greaves_cotton.svg" alt="Graves Cotton" />
+                    <img src="customers/huhtamaki.svg" alt="Huhtamaki" />
+                    <img src="customers/jsw_steel.svg" alt="JSW Steel" />
+                    <img src="customers/mahindra.webp" alt="Mahindra" />
+                    <img src="customers/mercedes_benz.jpg" alt="Mercedez-Benz" />
+                    <img src="customers/skoda.png" alt="Skoda" />
+                    <img src="customers/tata_steel.svg" alt="Tata Steel" />
+                    <img src="customers/thyssenkrupp.png" alt="Thyssenkrupp" />
+                    
+                    <img src="customers/amns_india.png" alt="AM/NS India" />
+                    <img src="customers/bharat_forge.png" alt="Bharat Forge" />
+                    <img src="customers/cooper_corp.jpg" alt="Cooper Corp" />
+                    <img src="customers/greaves_cotton.svg" alt="Graves Cotton" />
+                    <img src="customers/huhtamaki.svg" alt="Huhtamaki" />
+                    <img src="customers/jsw_steel.svg" alt="JSW Steel" />
+                    <img src="customers/mahindra.webp" alt="Mahindra" />
+                    <img src="customers/mercedes_benz.jpg" alt="Mercedez-Benz" />
+                    <img src="customers/skoda.png" alt="Skoda" />
+                    <img src="customers/tata_steel.svg" alt="Tata Steel" />
+                    <img src="customers/thyssenkrupp.png" alt="Thyssenkrupp" />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section section-alt">
+    <div class="container about-contact-grid">
+        <div class="about-column">
+            <header class="section-header">
+                <h2>SRG Technologies</h2>
+            </header>
+            <p>
+                SRG Technologies is a team of manufacturing professionals with expertise in manufacturing engineering,
+                machine tools, precision engineering components, jigs, fixtures, tooling, and the reconditioning and
+                retrofitting of machine tools.
+            </p>
+            <p>
+                Established in 2012, the company was founded with a vision to provide complete and integrated solutions
+                to manufacturing industries. Having served world-class manufacturers over decades, we bring strong shop-floor
+                understanding of quality, productivity, and reliability requirements.
+            </p>
+        </div>
+
+        <div class="contact-column" id="contact">
+            <header class="section-header">
+                <h2>Contact Us</h2>
+            </header>
+
+            <div class="contact-panel">
+                <h3>Primary Contact</h3>
+                <p><strong>Mr. Muralidhar Itagi</strong></p>
+                <p>For enquiries related to manufacturing solutions, machine tool upgrades, fixtures, tooling, and engineering support.</p>
+
+                <div class="contact-actions">
+                    <a class="contact-btn whatsapp-btn" href="https://wa.me/919922437021" target="_blank" rel="noopener noreferrer">
+                        WhatsApp Us
+                    </a>
+                    <a class="contact-btn email-btn" href="mailto:srg.technologies.mfg@gmail.com?subject=Enquiry%20for%20Manufacturing%20Solutions">
+                        Email Us
+                    </a>
+                </div>
+            </div>
+
+            <div class="unit-grid">
+                <div class="contact-block">
+                    <h3>Unit 1: Khopoli Plant</h3>
+                    <p>Plot No. 22A, Khopoli Industrial Area, Mulgaon, Khopoli, PIN-410203</p>
+                </div>
+
+                <div class="contact-block">
+                    <h3>Unit 2: Pimpri Plant</h3>
+                    <p>MIKRON, Plot No. 303, F2 Block, MIDC, Pimpri, Pune, PIN-411018</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> SRG Technologies. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
